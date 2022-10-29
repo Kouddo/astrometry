@@ -9,5 +9,3 @@ def dark_gen(files, integ = 'average'):
     else:
         raise Exception('Integration type must either be average or median')
 
-
-

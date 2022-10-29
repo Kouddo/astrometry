@@ -18,4 +18,8 @@ def average_fits(files):
     return master
 
 def median_fits(files):
+    master = [i.data for i in files]
+    return np.median(master, axis = 0)
+
+def export_fits(files, filepath):
     return None
