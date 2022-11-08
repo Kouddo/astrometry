@@ -1,6 +1,7 @@
 from utility import average_fits, assert_similar, median_fits
 
-def dark_gen(files, integ = 'average'):
+
+def DarkGen(files):
     assert_similar(files)
     if integ == 'average':
         return average_fits(files)
